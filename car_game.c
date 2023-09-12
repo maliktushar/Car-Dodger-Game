@@ -27,30 +27,8 @@ void makeEnemy()
 		int t = rand()%2;
 		enemyArray[0][t] = 1;
 		readyEnemy = rand()%3+rand()%2+7;
-		/*
-		if(t==0)
-		{
-			ready1 = rand()%3+5;
-
-		}
-		else
-		{
-			ready0 = rand()%3+5;
-		}
-		*/
+		
 	}
-	/*
-	if(ready0==0)
-	{
-		enemyArray[0][0] = 1;
-		ready1 = rand()%3+6;
-	}
-	if(ready1==0)
-	{
-		enemyArray[0][1] = 1;
-		ready0 = rand()%3+6;
-	}
-	*/
 
 }
 
@@ -132,7 +110,7 @@ void draw()
 
 //	printf("\n(A)->left\n(D)->right\n(x)->quit\n");	
 	printf("\nyour Score : %d \n",score);
-	printf("\t\t\t\t\t\tmade by: Aman Chuphal\n");
+	printf("\t\t\t\t\t\tmade by: Tushar Malik\n");
 
 
 }
