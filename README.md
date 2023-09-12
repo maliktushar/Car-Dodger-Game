@@ -36,7 +36,7 @@ Follow these steps to install and run the Car Dodger game on your Linux system:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/aman1348/car-game-in-linux-using-c.git
+   git clone https://github.com/maliktushar/Car-Dodger-Game.git
    ```
 
 2. Navigate to the game directory:
